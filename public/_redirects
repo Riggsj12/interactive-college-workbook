@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "redirects": [
+    {
+      "source": "/*",
+      "destination": "/index.html",
+      "status": 200
+    }
+  ]
+}
