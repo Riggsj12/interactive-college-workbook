@@ -1,17 +1,1 @@
 name = "interactive-college-workbook"
-type = "javascript"
-main = "src/index.js"
-compatibility_date = "2026-01-01"
-
-[env.production]
-name = "interactive-college-workbook-prod"
-vars = { ENVIRONMENT = "production" }
-
-# Pages configuration
-[build]
-command = "npm run build"
-watch_paths = ["src/**/*.{js,jsx}"]
-
-[build.upload]
-directory = "dist"
-format = "service-worker"
